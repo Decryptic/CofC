@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Button-counter-swenson</string>
+    <string name="init">0</string>
+</resources>

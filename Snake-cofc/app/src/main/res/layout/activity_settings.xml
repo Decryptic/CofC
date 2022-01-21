@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cofc.edu.snake.Menu"
+    android:weightSum="1">
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/soundText"
+        android:text="SOUND"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:paddingTop="90dp"
+        />
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/difficultyText"
+        android:text="DIFFICULTY"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:paddingTop="300dp"
+        />
+
+    <Button
+        android:id="@+id/onButton"
+        android:text="ON"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_toLeftOf="@+id/mediumButton"
+        android:layout_alignBottom="@+id/offButton"/>
+
+    <Button
+        android:id="@+id/offButton"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="OFF"
+        android:layout_marginTop="153dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/mediumButton" />
+
+    <Button
+        android:id="@+id/easyButton"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="EASY"
+        android:layout_alignBottom="@+id/mediumButton" />
+
+    <Button
+        android:id="@+id/mediumButton"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="MEDIUM"
+        android:layout_marginTop="156dp"
+        android:layout_below="@+id/onButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/hardButton"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="HARD"
+        android:layout_alignBottom="@+id/mediumButton"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

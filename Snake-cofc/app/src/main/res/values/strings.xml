@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Snake</string>
+    <string name="tableSettings">settings</string>
+    <string name="difficultySetting">difficulty</string>
+    <string name="volumeSetting">volume</string>
+    <string name="startButton">start</string>
+    <string name="highscoresButton">high scores</string>
+    <string name="settingsButton">settings</string>
+    <string name="score">0</string>
+    <string name="confirm">Confirm</string>
+    <string name="message">
+        Tap the blue box to enter name and press the Confirm button to finish
+    </string>
+    <string name="highScoreTitle">HIGH SCORES</string>
+</resources>

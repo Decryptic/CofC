@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cofc.edu.snake.Menu"
+    android:background="@drawable/menu_background"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="@string/startButton"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/settingsButton" />
+
+    <Button
+        android:id="@+id/highScoresButton"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="@string/highscoresButton"
+        android:layout_marginBottom="19dp"
+        android:layout_above="@+id/startButton"
+        android:layout_alignStart="@+id/startButton" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="@string/settingsButton"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/startButton"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

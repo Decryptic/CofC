@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="gridRows">25</integer>
+    <integer name="gridCols">17</integer>
+</resources>
